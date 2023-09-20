@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,7 @@ ul{
 
 nav{
     padding: 0 2rem;
+    border-bottom: 2px solid #eee
 }
 .d-flex{
     display: flex;
@@ -25,3 +28,19 @@ nav{
     justify-content: space-between;
 }
 
+#left-nav li:last-child{
+    color: #ff764d;
+}
+
+#right-nav li:first-child{
+    color:#0000ff;
+}
+
+#right-nav li:last-child{
+    font-size: 85%;
+}
+
+#left-nav, #right-nav{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
