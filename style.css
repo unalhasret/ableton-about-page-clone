@@ -44,3 +44,26 @@ nav{
 #right-nav li:last-child, #bottom-nav{
     font-size: .875rem;
 }
+
+.main-img{
+    position: relative;
+}
+
+.main-img img{
+    display: block;
+    height: calc(100vh - 8rem);
+    width: 85%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.main-img p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FD5948;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 7rem;
+}
