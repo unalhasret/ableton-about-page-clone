@@ -97,7 +97,7 @@ nav{
     background-color: #FBFFA7;
     width: 58vw;
     height: 58vw;
-    left: 42vw;
+    right: 0;
     z-index: -1;
 }
 .photo img{
@@ -158,3 +158,34 @@ nav{
     left: calc(16vw + 33vw);
 }
 
+.page-img{
+    margin: 0 8vw;
+}
+
+.page-img img{
+    margin: auto;
+    max-width: 100%;
+}
+
+.photo-classroom{
+    background-color: #D5B3FF;
+    width: 67vw;
+    height: 58vw;
+    left: 17vw;
+}
+
+.photo-classroom img:first-child{
+    position: absolute;
+    width: 33vw;
+    height: 25vw;
+    left: -8vw;
+    top: calc((58vw - 25vw)/2);
+}
+
+.photo-classroom img:last-child{
+    position: absolute;
+    top: 8vw;
+    right: -14.9vw;
+    width: 38vw;
+    height: 42vw;
+}
