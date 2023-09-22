@@ -86,3 +86,42 @@ nav{
 .text p{
     font-weight: 400;
 }
+
+.photo{
+    position: relative;
+}
+
+.photo-products > div{
+    display: inline-block;
+    position: absolute;
+    background-color: #FBFFA7;
+    width: 58vw;
+    height: 58vw;
+    left: 42vw;
+    z-index: -1;
+}
+.photo img{
+    object-fit: cover;
+}
+
+.photo-products img:first-child{
+    position: absolute;
+    width: 42vw;
+    height: 42vw;
+    margin: 0 8vw;
+    top: calc((58vw - 42vw)/2);
+    z-index: 1;
+}
+
+.photo-products img:last-child{
+    width: 33vw;
+    height: 25vw;
+    position: absolute;
+    top: calc((58vw - 25vw)/2);
+    left: 58vw;
+}
+
+
+
+
+
