@@ -125,5 +125,36 @@ nav{
     height: 58vw;
 }
 
+.photo-lecture{
+    background-color: #B6FFC0;
+    height: 75vw;
+    width: 58vw;
+    left: 0;
+}
 
+.first-img, .second-img, .third-img{
+    position: absolute;
+}
+
+.first-img{
+    top: calc(25vw/3);
+}
+
+.second-img{
+   top:calc(50vw/3 + 25vw);
+}
+
+
+.first-img, .second-img{
+    width: 33vw;
+    height: 25vw;
+    left: 8vw;
+}
+
+.third-img{
+    width: 42vw;
+    height: 42vw;
+    top: calc((75vw - 42vw)/2);
+    left: calc(16vw + 33vw);
+}
 
