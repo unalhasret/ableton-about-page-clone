@@ -189,3 +189,32 @@ nav{
     width: 38vw;
     height: 42vw;
 }
+
+.job{
+    padding: 0 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8vw;
+}
+.job-img, .job-text{
+    width: 41vw;
+    height: 42vw;
+}
+.job-text{
+    background-color: #b1c5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-text h1 {
+    width: 25vw;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.job-text a{
+    color: #0000ff;
+    text-decoration: none;
+}
