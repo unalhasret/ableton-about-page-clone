@@ -225,19 +225,19 @@ footer{
 .footer-head{
     padding: 8vw 0 4vw 8vw;
 }
-.footer-first-row{
+.footer-row{
     padding-left: 8vw;
     padding-bottom: 4vw;
     line-height: 1.75;
     display: flex;
 }
 
-.footer-first-row a{
+.footer-row a{
     text-decoration: none;
     color: black;
 }
 
-.register-about, .education{
+.register-about, .education, .community, .lang-and-location{
     width: 30%;
 }
 
@@ -289,4 +289,17 @@ input[type=submit]{
     padding: 7px 30px;
     color: #fff;
     background: blue;
+}
+
+.language, .location{
+    display: inline-block;
+    padding: 0.35em 50px 0.35em 0.75em;
+    border: 0;
+    background-color: #eee;
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.lang-and-location > p{
+    margin-bottom: .75rem;
 }
