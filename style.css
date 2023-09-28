@@ -226,8 +226,7 @@ footer{
     padding: 8vw 0 4vw 8vw;
 }
 .footer-row{
-    padding-left: 8vw;
-    padding-bottom: 4vw;
+    padding: 0 8vw 4vw 8vw;
     line-height: 1.75;
     display: flex;
 }
@@ -277,7 +276,7 @@ footer{
 }
 
 input[type=email]{
-    width: 70%;
+    width: 80%;
     padding: 8px 15px;
     background: transparent;
     background-color: #eee;
@@ -303,3 +302,17 @@ input[type=submit]{
 .lang-and-location > p{
     margin-bottom: .75rem;
 }
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 4vw;
+}
+
+.footer-links ul, .footer-logo{
+    display: flex;
+    gap: 1rem;
+}
+
