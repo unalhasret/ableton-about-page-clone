@@ -316,3 +316,6 @@ input[type=submit]{
     gap: 1rem;
 }
 
+.footer-subhead{
+    font-weight: 500;
+}
