@@ -237,10 +237,10 @@ footer{
     color: black;
 }
 
-.footer-first-col, .footer-second-col{
+.register-about, .education{
     width: 30%;
 }
 
-.footer-third-col{
+.sign-up{
     width: 40%;
 }
