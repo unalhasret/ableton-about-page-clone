@@ -267,3 +267,26 @@ footer{
     background-color: #F77737;
 }
 
+.input-area{
+    display: flex;
+}
+
+.input-area > *{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+input[type=email]{
+    width: 70%;
+    padding: 8px 15px;
+    background: transparent;
+    background-color: #eee;
+    border: 0;
+}
+
+input[type=submit]{
+    border: 0;
+    padding: 7px 30px;
+    color: #fff;
+    background: blue;
+}
