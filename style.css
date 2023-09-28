@@ -244,3 +244,26 @@ footer{
 .sign-up{
     width: 40%;
 }
+
+.social-media li{
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: .625rem .625rem 0 0;
+}
+.facebook{
+    background-color: #3477F2;
+}
+
+.twitter{
+    background-color: #1DA1F2;
+}
+
+.youtube{
+    background-color: #FF001D;
+}
+
+.instagram{
+    background-color: #F77737;
+}
+
