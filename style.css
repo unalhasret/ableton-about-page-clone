@@ -319,3 +319,39 @@ input[type=submit]{
 .footer-subhead{
     font-weight: 500;
 }
+
+.video{
+    position: relative;
+    width: 50vw;
+    margin: auto;
+}
+
+.video img{
+    width: 100%;
+}
+
+.video-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #0000ff;
+    border-radius: 50%;
+}
+
+.video-button > *{
+    position: absolute;
+    width: 1.875rem;
+    height: 2.125rem;
+    top: 2.0625rem;
+    left: 2.4375rem;
+    color: white;
+}
+
+.figcaption-pad{
+    padding: 0.625rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
